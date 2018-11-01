@@ -667,7 +667,376 @@
       width: 30%;
       font-size: 34px;
       letter-spacing: 8px; }
-  /* Fin de la class titre */ }
+  /* Fin de la class titre */
+  #portfolio {
+    /* Début de la section portfolio */
+    width: 100%;
+    background: #fff;
+    margin-top: 3%;
+    font-family: roboto;
+    /* Fin de la class sectionabout */
+    /* Fin de la class achievedivtitle */
+    /* Fin de la class achievedivdesc */ }
+    #portfolio .divtitre {
+      margin-bottom: 5%;
+      margin-left: 2%;
+      display: flex;
+      justify-content: center; }
+      #portfolio .divtitre .titreport {
+        width: 100%; }
+        #portfolio .divtitre .titreport .titlesec {
+          font-size: 18px;
+          line-height: 30px;
+          font-weight: 700;
+          letter-spacing: 7px;
+          color: #a4591c; }
+      #portfolio .divtitre .titreport2 {
+        width: 30%; }
+    #portfolio .sectionabout {
+      width: 100%; }
+      #portfolio .sectionabout .aboutme {
+        margin-left: 2%;
+        width: 100%; }
+        #portfolio .sectionabout .aboutme .lettre {
+          font-size: 38px;
+          margin-top: 0.5%;
+          width: 50px;
+          height: 50px;
+          background: #A4591C;
+          display: inline-block;
+          float: left;
+          border-radius: 5px;
+          margin-right: 2%;
+          display: flex;
+          justify-content: center;
+          padding-top: 0.8%;
+          color: #FFF; }
+      #portfolio .sectionabout .aboutme2 {
+        margin-left: 2%; }
+      #portfolio .sectionabout .titlesec {
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 700;
+        letter-spacing: 7px;
+        color: #a4591c;
+        margin-bottom: 5%; }
+      #portfolio .sectionabout .descsec {
+        line-height: 27px;
+        margin-top: 3%;
+        font-size: 16px; }
+      #portfolio .sectionabout .titledesc {
+        margin-top: 3%;
+        font-weight: bold; }
+    #portfolio h1 {
+      color: #FFF;
+      text-align: center;
+      width: 40%;
+      font-size: 48px; }
+    #portfolio .achievedivtitle {
+      /* Début de la class achievedivtitle */
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 5%;
+      display: table;
+      height: 60px;
+      float: center;
+      justify-content: center;
+      position: relative; }
+      #portfolio .achievedivtitle .achievetitle {
+        color: #A4591C;
+        width: 80%;
+        background-color: #F3F3F3;
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 7px;
+        vertical-align: middle;
+        display: table-cell; }
+    #portfolio .achievedivdesc {
+      /* Début de la class achievedivdesc */
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      /* Fin de la class achievedesc */ }
+      #portfolio .achievedivdesc .achievedesc {
+        /* Début de la class achievedesc */
+        background-color: #F9F9F9;
+        width: 80%;
+        height: 45%;
+        display: flex;
+        justify-content: center; }
+        #portfolio .achievedivdesc .achievedesc .webdiv {
+          width: 45%;
+          position: relative;
+          display: table; }
+        #portfolio .achievedivdesc .achievedesc .appdiv {
+          position: relative;
+          width: 45%;
+          display: table; }
+        #portfolio .achievedivdesc .achievedesc .bddiv {
+          width: 45%;
+          display: table; }
+        #portfolio .achievedivdesc .achievedesc .img {
+          position: relative;
+          display: flex;
+          justify-content: center; }
+        #portfolio .achievedivdesc .achievedesc .txt {
+          position: relative;
+          display: flex;
+          justify-content: center; }
+        #portfolio .achievedivdesc .achievedesc .achievetext {
+          text-align: center;
+          font-size: 16px; }
+        #portfolio .achievedivdesc .achievedesc .imgachieve {
+          width: 25px;
+          height: 25px; }
+  /* Fin de la section portfolio */
+  #skills {
+    /* Debut de la class section skills */
+    width: 100%;
+    background: #fff;
+    margin-top: 5%;
+    font-family: roboto; }
+    #skills .divtitre {
+      margin-bottom: 5%;
+      margin-left: 2%;
+      display: flex;
+      justify-content: center; }
+      #skills .divtitre .titreport {
+        width: 100%; }
+        #skills .divtitre .titreport .titlesec {
+          font-size: 18px;
+          line-height: 30px;
+          font-weight: 700;
+          letter-spacing: 7px;
+          color: #a4591c; }
+      #skills .divtitre .titreport2 {
+        width: 30%; }
+    #skills .sectionskill {
+      width: 100%;
+      height: 600px; }
+      #skills .sectionskill .titlesec {
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 700;
+        letter-spacing: 7px;
+        color: #a4591c; }
+      #skills .sectionskill .first {
+        margin-top: 10%;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: bold;
+        letter-spacing: 6px;
+        margin-bottom: 5%; }
+      #skills .sectionskill .catskillone {
+        margin-left: 2%; }
+        #skills .sectionskill .catskillone .skills {
+          margin-top: 5%;
+          position: relative;
+          width: 90%;
+          font-size: 18px;
+          height: 20px; }
+          #skills .sectionskill .catskillone .skills .offer {
+            width: 95%;
+            float: left; }
+          #skills .sectionskill .catskillone .skills .pourcents {
+            text-align: right;
+            float: left; }
+        #skills .sectionskill .catskillone .skillbar {
+          position: relative;
+          display: block;
+          margin-top: 5%;
+          margin-bottom: 15px;
+          width: 100%;
+          background: #eee;
+          height: 35px;
+          border-radius: 3px;
+          -moz-border-radius: 3px;
+          -webkit-border-radius: 3px;
+          -webkit-transition: 0.4s linear;
+          -moz-transition: 0.4s linear;
+          -ms-transition: 0.4s linear;
+          -o-transition: 0.4s linear;
+          transition: 0.4s linear;
+          -webkit-transition-property: width, background-color;
+          -moz-transition-property: width, background-color;
+          -ms-transition-property: width, background-color;
+          -o-transition-property: width, background-color;
+          transition-property: width, background-color; }
+        #skills .sectionskill .catskillone .skillbar-title {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 110px;
+          font-weight: bold;
+          font-size: 13px;
+          color: #ffffff;
+          background: #6adcfa;
+          -webkit-border-top-left-radius: 3px;
+          -webkit-border-bottom-left-radius: 4px;
+          -moz-border-radius-topleft: 3px;
+          -moz-border-radius-bottomleft: 3px;
+          border-top-left-radius: 3px;
+          border-bottom-left-radius: 3px; }
+        #skills .sectionskill .catskillone .skillbar-title span {
+          display: block;
+          background: rgba(0, 0, 0, 0.1);
+          padding: 0 20px;
+          height: 35px;
+          line-height: 35px;
+          -webkit-border-top-left-radius: 3px;
+          -webkit-border-bottom-left-radius: 3px;
+          -moz-border-radius-topleft: 3px;
+          -moz-border-radius-bottomleft: 3px;
+          border-top-left-radius: 3px;
+          border-bottom-left-radius: 3px; }
+        #skills .sectionskill .catskillone .skillbar-bar {
+          height: 35px;
+          width: 0px;
+          border-radius: 3px;
+          -moz-border-radius: 3px;
+          -webkit-border-radius: 3px; }
+        #skills .sectionskill .catskillone .skill-bar-percent {
+          position: absolute;
+          right: 10px;
+          top: 0;
+          font-size: 11px;
+          height: 35px;
+          line-height: 35px;
+          color: #ffffff;
+          color: rgba(0, 0, 0, 0.4); }
+        #skills .sectionskill .catskillone .barr {
+          width: 90%;
+          background: #F5F5F5;
+          height: 10px; }
+          #skills .sectionskill .catskillone .barr .progress {
+            width: 30%;
+            background: #a4591c;
+            height: 10px; }
+        #skills .sectionskill .catskillone .ulskills {
+          margin-top: 5%;
+          width: 35%;
+          float: left;
+          position: relative;
+          margin-left: 3%; }
+      #skills .sectionskill .catskilltwo {
+        margin-left: 2%;
+        margin-top: 5%;
+        width: 100%; }
+        #skills .sectionskill .catskilltwo .appdiv {
+          width: 100%;
+          margin-top: 5%;
+          height: 15%; }
+          #skills .sectionskill .catskilltwo .appdiv .iconapp {
+            width: 50px;
+            height: 50px;
+            float: left;
+            margin-right: 5%; }
+          #skills .sectionskill .catskilltwo .appdiv .skillbar {
+            float: left;
+            position: relative;
+            display: block;
+            margin-top: 5%;
+            margin-bottom: 15px;
+            width: 80%;
+            background: #eee;
+            height: 15px;
+            border-radius: 10px;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -webkit-transition: 0.4s linear;
+            -moz-transition: 0.4s linear;
+            -ms-transition: 0.4s linear;
+            -o-transition: 0.4s linear;
+            transition: 0.4s linear;
+            -webkit-transition-property: width, background-color;
+            -moz-transition-property: width, background-color;
+            -ms-transition-property: width, background-color;
+            -o-transition-property: width, background-color;
+            transition-property: width, background-color; }
+          #skills .sectionskill .catskilltwo .appdiv .skillbar-title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 110px;
+            font-weight: bold;
+            font-size: 13px;
+            color: #ffffff;
+            background: #6adcfa;
+            -webkit-border-top-left-radius: 3px;
+            -webkit-border-bottom-left-radius: 4px;
+            -moz-border-radius-topleft: 3px;
+            -moz-border-radius-bottomleft: 3px;
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px; }
+          #skills .sectionskill .catskilltwo .appdiv .skillbar-bar {
+            height: 13px;
+            width: 0px;
+            border-radius: 10px;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px; }
+          #skills .sectionskill .catskilltwo .appdiv .skill-bar-percent {
+            position: absolute;
+            right: 10px;
+            top: 0;
+            font-size: 11px;
+            height: 15px;
+            line-height: 15px;
+            color: #ffffff;
+            color: rgba(0, 0, 0, 0.4); }
+  /* Fin de la section skills */
+  #contact {
+    /* Début de la section contact */
+    width: 100%;
+    background: #fff;
+    margin-top: 66%;
+    font-family: roboto; }
+    #contact .titlecon {
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: 700;
+      letter-spacing: 7px;
+      color: #a4591c;
+      margin-left: 2%;
+      margin-bottom: 5%; }
+    #contact .sectioncontact {
+      width: 100%; }
+      #contact .sectioncontact .contactone {
+        width: 100%;
+        display: flex;
+        justify-content: center; }
+        #contact .sectioncontact .contactone .editnormal {
+          width: 20%;
+          height: 40px;
+          margin-left: 0.5%;
+          margin-right: 0.5%; }
+      #contact .sectioncontact .contacttwo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 1%; }
+        #contact .sectioncontact .contacttwo .editlong {
+          width: 41%;
+          height: 40px; }
+      #contact .sectioncontact .contactthree {
+        margin-top: 1%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2%; }
+        #contact .sectioncontact .contactthree .editlarge {
+          width: 41%;
+          height: 70px; }
+      #contact .sectioncontact .buttondiv {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3%; }
+        #contact .sectioncontact .buttondiv .butsend {
+          background: #a4591c;
+          color: #FFFFFF;
+          width: 32%;
+          height: 40px; }
+  /* Fin de section contact */ }
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
