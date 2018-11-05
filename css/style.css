@@ -82,7 +82,7 @@
         float: left; }
         .titre .upmenu .leftoption a {
           font-family: arial black;
-          font-size: 20px;
+          font-size: 24px;
           color: white;
           text-decoration: none;
           margin-left: 25%; }
@@ -93,7 +93,7 @@
         float: right; }
         .titre .upmenu .rightoption a {
           font-family: arial black;
-          font-size: 20px;
+          font-size: 24px;
           color: white;
           text-decoration: none;
           margin-right: 25%; }
@@ -220,6 +220,9 @@
         margin-bottom: 5%; }
       #portfolio .sectionabout .titledesc {
         font-weight: bold; }
+      #portfolio .sectionabout .titledesc1 {
+        font-weight: bold;
+        margin-top: 5%; }
     #portfolio h1 {
       color: #FFF;
       text-align: center;
