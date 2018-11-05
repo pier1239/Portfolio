@@ -111,7 +111,6 @@
       padding-left: 2%;
       width: 55%;
       height: 400px;
-      bottom: 0;
       -webkit-animation: moving 2s;
       animation: moving 2s;
       /* Fin de la class aboutdiv */ }
@@ -619,7 +618,6 @@
       padding-left: 2%;
       width: 55%;
       height: 400px;
-      bottom: 0;
       -webkit-animation: moving 2s;
       animation: moving 2s;
       /* Fin de la class aboutdiv */ }
@@ -1101,11 +1099,10 @@
       position: absolute;
       color: #FFFFFF;
       margin-left: 22%;
-      margin-top: 50%;
+      margin-top: 70%;
       padding-left: 2%;
       width: 55%;
       height: 400px;
-      bottom: 0;
       -webkit-animation: moving 2s;
       animation: moving 2s;
       /* Fin de la class aboutdiv */ }
