@@ -82,7 +82,7 @@
         float: left; }
         .titre .upmenu .leftoption a {
           font-family: arial black;
-          font-size: 24px;
+          font-size: 20px;
           color: white;
           text-decoration: none;
           margin-left: 25%; }
@@ -93,7 +93,7 @@
         float: right; }
         .titre .upmenu .rightoption a {
           font-family: arial black;
-          font-size: 24px;
+          font-size: 20px;
           color: white;
           text-decoration: none;
           margin-right: 25%; }
@@ -589,7 +589,7 @@
         float: left; }
         .titre .upmenu .leftoption a {
           font-family: arial black;
-          font-size: 16px;
+          font-size: 14px;
           color: white;
           text-decoration: none;
           margin-left: 120px; }
@@ -600,7 +600,7 @@
         float: right; }
         .titre .upmenu .rightoption a {
           font-family: arial black;
-          font-size: 16px;
+          font-size: 14px;
           color: white;
           text-decoration: none;
           margin-right: 120px; }
@@ -1074,7 +1074,7 @@
         float: left; }
         .titre .upmenu .leftoption a {
           font-family: arial black;
-          font-size: 14px;
+          font-size: 18px;
           color: white;
           text-decoration: none;
           margin-left: 15%; }
@@ -1085,7 +1085,7 @@
         float: right; }
         .titre .upmenu .rightoption a {
           font-family: arial black;
-          font-size: 14px;
+          font-size: 18px;
           color: white;
           text-decoration: none;
           margin-right: 15%; }
