@@ -730,6 +730,9 @@
       #portfolio .sectionabout .titledesc {
         margin-top: 3%;
         font-weight: bold; }
+      #portfolio .sectionabout .titledesc1 {
+        font-weight: bold;
+        margin-top: 5%; }
     #portfolio h1 {
       color: #FFF;
       text-align: center;
@@ -1202,7 +1205,7 @@
       #portfolio .sectionabout .aboutme2 {
         margin-left: 2%; }
       #portfolio .sectionabout .titlesec {
-        font-size: 18px;
+        font-size: 24x;
         line-height: 30px;
         font-weight: 700;
         letter-spacing: 7px;
@@ -1211,7 +1214,10 @@
       #portfolio .sectionabout .descsec {
         line-height: 27px;
         margin-top: 3%;
-        font-size: 16px; }
+        font-size: 22px; }
+      #portfolio .sectionabout .titledesc1 {
+        font-weight: bold;
+        margin-top: 5%; }
       #portfolio .sectionabout .titledesc {
         margin-top: 3%;
         font-weight: bold; }
