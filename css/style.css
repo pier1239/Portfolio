@@ -670,7 +670,7 @@
         border-style: solid;
         border-width: 3px;
         margin: auto;
-        width: 70%;
+        width: 80%;
         height: 20%;
         cursor: pointer;
         overflow: hidden;
@@ -694,7 +694,7 @@
     from {
       margin-left: -15%; }
     to {
-      margin-left: 15%; } }
+      margin-left: 10%; } }
         .titre .entete .aboutdiv .about:hover {
           text-decoration: none;
           cursor: pointer; }
@@ -845,7 +845,7 @@
     /* Debut de la class section skills */
     width: 100%;
     background: #fff;
-    margin-top: 5%;
+    margin-top: 3%;
     font-family: roboto; }
     #skills .divtitre {
       margin-bottom: 5%;
@@ -863,8 +863,7 @@
       #skills .divtitre .titreport2 {
         width: 30%; }
     #skills .sectionskill {
-      width: 100%;
-      height: 600px; }
+      width: 100%; }
       #skills .sectionskill .titlesec {
         font-size: 18px;
         line-height: 30px;
@@ -974,15 +973,14 @@
         margin-top: 5%;
         width: 100%; }
         #skills .sectionskill .catskilltwo .skillbar {
-          float: left;
           position: relative;
           display: block;
           margin-top: 5%;
           margin-bottom: 15px;
-          width: 80%;
+          width: 100%;
           background: #eee;
-          height: 15px;
-          border-radius: 10px;
+          height: 35px;
+          border-radius: 3px;
           -moz-border-radius: 3px;
           -webkit-border-radius: 3px;
           -webkit-transition: 0.4s linear;
@@ -1010,10 +1008,22 @@
           -moz-border-radius-bottomleft: 3px;
           border-top-left-radius: 3px;
           border-bottom-left-radius: 3px; }
+        #skills .sectionskill .catskilltwo .skillbar-title span {
+          display: block;
+          background: rgba(0, 0, 0, 0.1);
+          padding: 0 20px;
+          height: 35px;
+          line-height: 35px;
+          -webkit-border-top-left-radius: 3px;
+          -webkit-border-bottom-left-radius: 3px;
+          -moz-border-radius-topleft: 3px;
+          -moz-border-radius-bottomleft: 3px;
+          border-top-left-radius: 3px;
+          border-bottom-left-radius: 3px; }
         #skills .sectionskill .catskilltwo .skillbar-bar {
-          height: 13px;
+          height: 35px;
           width: 0px;
-          border-radius: 10px;
+          border-radius: 3px;
           -moz-border-radius: 3px;
           -webkit-border-radius: 3px; }
         #skills .sectionskill .catskilltwo .skill-bar-percent {
@@ -1021,8 +1031,8 @@
           right: 10px;
           top: 0;
           font-size: 11px;
-          height: 15px;
-          line-height: 15px;
+          height: 35px;
+          line-height: 35px;
           color: #ffffff;
           color: rgba(0, 0, 0, 0.4); }
   /* Fin de la section skills */
@@ -1030,7 +1040,7 @@
     /* Début de la section contact */
     width: 100%;
     background: #fff;
-    margin-top: 66%;
+    margin-top: 3%;
     font-family: roboto; }
     #contact .titlecon {
       font-size: 18px;
