@@ -973,67 +973,58 @@
         margin-left: 2%;
         margin-top: 5%;
         width: 100%; }
-        #skills .sectionskill .catskilltwo .appdiv {
-          width: 60%;
+        #skills .sectionskill .catskilltwo .skillbar {
+          float: left;
+          position: relative;
+          display: block;
           margin-top: 5%;
-          height: 15%; }
-          #skills .sectionskill .catskilltwo .appdiv .iconapp {
-            width: 25px;
-            height: 25px;
-            float: left;
-            margin-right: 5%; }
-          #skills .sectionskill .catskilltwo .appdiv .skillbar {
-            float: left;
-            position: relative;
-            display: block;
-            margin-top: 5%;
-            margin-bottom: 15px;
-            width: 80%;
-            background: #eee;
-            height: 15px;
-            border-radius: 10px;
-            -moz-border-radius: 3px;
-            -webkit-border-radius: 3px;
-            -webkit-transition: 0.4s linear;
-            -moz-transition: 0.4s linear;
-            -ms-transition: 0.4s linear;
-            -o-transition: 0.4s linear;
-            transition: 0.4s linear;
-            -webkit-transition-property: width, background-color;
-            -moz-transition-property: width, background-color;
-            -ms-transition-property: width, background-color;
-            -o-transition-property: width, background-color;
-            transition-property: width, background-color; }
-          #skills .sectionskill .catskilltwo .appdiv .skillbar-title {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 110px;
-            font-weight: bold;
-            font-size: 13px;
-            color: #ffffff;
-            background: #6adcfa;
-            -webkit-border-top-left-radius: 3px;
-            -webkit-border-bottom-left-radius: 4px;
-            -moz-border-radius-topleft: 3px;
-            -moz-border-radius-bottomleft: 3px;
-            border-top-left-radius: 3px;
-            border-bottom-left-radius: 3px; }
-          #skills .sectionskill .catskilltwo .appdiv .skillbar-bar {
-            height: 13px;
-            width: 0px;
-            border-radius: 10px;
-            -moz-border-radius: 3px;
-            -webkit-border-radius: 3px; }
-          #skills .sectionskill .catskilltwo .appdiv .skill-bar-percent {
-            position: absolute;
-            right: 10px;
-            top: 0;
-            font-size: 11px;
-            height: 15px;
-            line-height: 15px;
-            color: #ffffff;
-            color: rgba(0, 0, 0, 0.4); }
+          margin-bottom: 15px;
+          width: 80%;
+          background: #eee;
+          height: 15px;
+          border-radius: 10px;
+          -moz-border-radius: 3px;
+          -webkit-border-radius: 3px;
+          -webkit-transition: 0.4s linear;
+          -moz-transition: 0.4s linear;
+          -ms-transition: 0.4s linear;
+          -o-transition: 0.4s linear;
+          transition: 0.4s linear;
+          -webkit-transition-property: width, background-color;
+          -moz-transition-property: width, background-color;
+          -ms-transition-property: width, background-color;
+          -o-transition-property: width, background-color;
+          transition-property: width, background-color; }
+        #skills .sectionskill .catskilltwo .skillbar-title {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 110px;
+          font-weight: bold;
+          font-size: 13px;
+          color: #ffffff;
+          background: #6adcfa;
+          -webkit-border-top-left-radius: 3px;
+          -webkit-border-bottom-left-radius: 4px;
+          -moz-border-radius-topleft: 3px;
+          -moz-border-radius-bottomleft: 3px;
+          border-top-left-radius: 3px;
+          border-bottom-left-radius: 3px; }
+        #skills .sectionskill .catskilltwo .skillbar-bar {
+          height: 13px;
+          width: 0px;
+          border-radius: 10px;
+          -moz-border-radius: 3px;
+          -webkit-border-radius: 3px; }
+        #skills .sectionskill .catskilltwo .skill-bar-percent {
+          position: absolute;
+          right: 10px;
+          top: 0;
+          font-size: 11px;
+          height: 15px;
+          line-height: 15px;
+          color: #ffffff;
+          color: rgba(0, 0, 0, 0.4); }
   /* Fin de la section skills */
   #contact {
     /* Début de la section contact */
