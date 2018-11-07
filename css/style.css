@@ -1258,7 +1258,8 @@
           font-weight: 700;
           letter-spacing: 7px;
           color: #a4591c;
-          margin-left: 5%; }
+          margin-left: 5%;
+          margin-top: 5%; }
       #portfolio .divtitre .titreport2 {
         width: 30%; }
     #portfolio .sectionabout .aboutme {
@@ -1373,7 +1374,9 @@
           line-height: 30px;
           font-weight: 700;
           letter-spacing: 7px;
-          color: #a4591c; }
+          color: #a4591c;
+          margin-left: 5%;
+          margin-top: 5%; }
       #skills .divtitre .titreport2 {
         width: 30%; }
     #skills .sectionskill {
