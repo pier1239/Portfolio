@@ -227,12 +227,10 @@
       font-size: 48px; }
     #portfolio .achievedivtitle {
       /* Début de la class achievedivtitle */
-      width: 100%;
       margin-top: 5%;
       display: flex;
       height: 120px;
-      justify-content: center;
-      position: relative; }
+      justify-content: center; }
       #portfolio .achievedivtitle .achievetitle {
         color: #A4591C;
         width: 60%;
@@ -253,23 +251,19 @@
         background-color: #F9F9F9;
         width: 60%;
         height: 200px;
-        display: flex;
-        justify-content: center; }
+        display: table; }
         #portfolio .achievedivdesc .achievedesc .webdiv {
-          margin-top: 5.0%;
-          width: 45%;
-          position: relative;
-          display: table; }
+          width: 100px;
+          vertical-align: middle;
+          display: table-cell; }
         #portfolio .achievedivdesc .achievedesc .appdiv {
-          margin-top: 5.0%;
-          position: relative;
-          width: 45%;
-          display: table; }
+          width: 100px;
+          vertical-align: middle;
+          display: table-cell; }
         #portfolio .achievedivdesc .achievedesc .bddiv {
-          margin-top: 5.0%;
-          position: relative;
-          width: 45%;
-          display: table; }
+          width: 100px;
+          vertical-align: middle;
+          display: table-cell; }
         #portfolio .achievedivdesc .achievedesc .img {
           position: relative;
           display: flex;
@@ -784,14 +778,10 @@
       font-size: 48px; }
     #portfolio .achievedivtitle {
       /* Début de la class achievedivtitle */
-      width: 80%;
-      margin: 0 auto;
       margin-top: 5%;
-      display: table;
+      display: flex;
       height: 60px;
-      float: center;
-      justify-content: center;
-      position: relative; }
+      justify-content: center; }
       #portfolio .achievedivtitle .achievetitle {
         color: #A4591C;
         width: 80%;
@@ -799,8 +789,8 @@
         text-align: center;
         font-size: 18px;
         letter-spacing: 7px;
-        vertical-align: middle;
-        display: table-cell; }
+        padding-top: 2.5%;
+        padding-bottom: 2.5%; }
     #portfolio .achievedivdesc {
       /* Début de la class achievedivdesc */
       width: 100%;
@@ -1317,12 +1307,9 @@
       font-size: 48px; }
     #portfolio .achievedivtitle {
       /* Début de la class achievedivtitle */
-      width: 80%;
-      margin: 0 auto;
       margin-top: 5%;
-      display: table;
+      display: flex;
       height: 60px;
-      float: center;
       justify-content: center; }
       #portfolio .achievedivtitle .achievetitle {
         color: #A4591C;
@@ -1331,8 +1318,8 @@
         text-align: center;
         font-size: 24px;
         letter-spacing: 7px;
-        vertical-align: middle;
-        display: table-cell; }
+        padding-top: 2.5%;
+        padding-bottom: 2.5%; }
     #portfolio .achievedivdesc {
       /* Début de la class achievedivdesc */
       width: 100%;
@@ -1343,18 +1330,20 @@
         /* Début de la class achievedesc */
         background-color: #F9F9F9;
         width: 80%;
-        height: 60px;
-        display: flex;
-        justify-content: center; }
+        height: 110px;
+        display: table; }
         #portfolio .achievedivdesc .achievedesc .webdiv {
-          width: 45%;
-          display: table; }
+          width: 50px;
+          vertical-align: middle;
+          display: table-cell; }
         #portfolio .achievedivdesc .achievedesc .appdiv {
-          width: 45%;
-          display: table; }
+          width: 50px;
+          vertical-align: middle;
+          display: table-cell; }
         #portfolio .achievedivdesc .achievedesc .bddiv {
-          width: 45%;
-          display: table; }
+          width: 50px;
+          vertical-align: middle;
+          display: table-cell; }
         #portfolio .achievedivdesc .achievedesc .img {
           display: flex;
           justify-content: center; }
@@ -1363,7 +1352,7 @@
           justify-content: center; }
         #portfolio .achievedivdesc .achievedesc .achievetext {
           text-align: center;
-          font-size: 16px; }
+          font-size: 20px; }
         #portfolio .achievedivdesc .achievedesc .imgachieve {
           width: 25px;
           height: 25px; }
