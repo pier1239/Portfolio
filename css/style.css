@@ -596,8 +596,8 @@
     z-index: 20;
     cursor: pointer; }
     .navigation-btn .barre {
-      width: 30px;
-      height: 3px;
+      width: 60px;
+      height: 8px;
       background: #FFF;
       margin-top: 4px; }
   .titre {
@@ -1131,8 +1131,8 @@
     z-index: 20;
     cursor: pointer; }
     .navigation-btn .barre {
-      width: 50px;
-      height: 13px;
+      width: 60px;
+      height: 8px;
       background: #FFF;
       margin-top: 4px; }
   .titre {
