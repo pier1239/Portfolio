@@ -1260,11 +1260,8 @@
         width: 100%; }
         #portfolio .divtitre .titreport .titlesec {
           font-size: 24px;
-          line-height: 30px;
-          font-weight: 700;
           letter-spacing: 7px;
-          color: #a4591c;
-          margin-bottom: 5%; }
+          color: #a4591c; }
       #portfolio .divtitre .titreport2 {
         width: 30%; }
     #portfolio .sectionabout .aboutme {
