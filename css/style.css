@@ -491,13 +491,15 @@
           width: 20%;
           height: 40px;
           margin-left: 0.5%;
-          margin-right: 0.5%; }
+          margin-right: 0.5%;
+          padding-left: 1%; }
       #contact .sectioncontact .contacttwo {
         width: 100%;
         display: flex;
         justify-content: center;
         margin-top: 1%; }
         #contact .sectioncontact .contacttwo .editlong {
+          padding-left: 1%;
           width: 41%;
           height: 40px; }
       #contact .sectioncontact .contactthree {
@@ -508,7 +510,8 @@
         margin-bottom: 2%; }
         #contact .sectioncontact .contactthree .editlarge {
           width: 41%;
-          height: 70px; }
+          height: 70px;
+          padding-left: 1%; }
       #contact .sectioncontact .buttondiv {
         display: flex;
         justify-content: center;
@@ -1048,13 +1051,15 @@
           width: 20%;
           height: 40px;
           margin-left: 0.5%;
-          margin-right: 0.5%; }
+          margin-right: 0.5%;
+          padding-left: 1%; }
       #contact .sectioncontact .contacttwo {
         width: 100%;
         display: flex;
         justify-content: center;
         margin-top: 1%; }
         #contact .sectioncontact .contacttwo .editlong {
+          padding-left: 1%;
           width: 41%;
           height: 40px; }
       #contact .sectioncontact .contactthree {
@@ -1064,6 +1069,7 @@
         justify-content: center;
         margin-bottom: 2%; }
         #contact .sectioncontact .contactthree .editlarge {
+          padding-left: 1%;
           width: 41%;
           height: 70px; }
       #contact .sectioncontact .buttondiv {
@@ -1257,7 +1263,8 @@
           line-height: 30px;
           font-weight: 700;
           letter-spacing: 7px;
-          color: #a4591c; }
+          color: #a4591c;
+          margin-bottom: 5%; }
       #portfolio .divtitre .titreport2 {
         width: 30%; }
     #portfolio .sectionabout .aboutme {
@@ -1372,7 +1379,8 @@
           line-height: 30px;
           font-weight: 700;
           letter-spacing: 7px;
-          color: #a4591c; }
+          color: #a4591c;
+          margin-bottom: 5%; }
       #skills .divtitre .titreport2 {
         width: 30%; }
     #skills .sectionskill {
@@ -1573,13 +1581,15 @@
           width: 20%;
           height: 40px;
           margin-left: 0.5%;
-          margin-right: 0.5%; }
+          margin-right: 0.5%;
+          padding-left: 1%; }
       #contact .sectioncontact .contacttwo {
         width: 100%;
         display: flex;
         justify-content: center;
         margin-top: 1%; }
         #contact .sectioncontact .contacttwo .editlong {
+          padding-left: 1%;
           width: 41%;
           height: 40px; }
       #contact .sectioncontact .contactthree {
@@ -1590,7 +1600,8 @@
         margin-bottom: 2%; }
         #contact .sectioncontact .contactthree .editlarge {
           width: 41%;
-          height: 70px; }
+          height: 70px;
+          padding-left: 1%; }
       #contact .sectioncontact .buttondiv {
         display: flex;
         justify-content: center;
