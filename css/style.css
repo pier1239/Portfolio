@@ -130,7 +130,6 @@
         font-size: 34px;
         color: #FFF;
         border-color: white;
-        animation: slide-right 5s;
         position: relative;
         display: table;
         /* Fin de la class about */ }
@@ -689,7 +688,6 @@
         animation: slide-right 5s;
         color: #FFF;
         border-color: white;
-        animation: slide-right 5s;
         position: relative;
         /* Fin de la class about */ }
   @keyframes img-ani {
@@ -1227,7 +1225,6 @@
         font-size: 34px;
         color: #FFF;
         border-color: white;
-        animation: slide-right 5s;
         position: relative;
         display: table;
         /* Fin de la class about */ }
