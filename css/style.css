@@ -667,8 +667,13 @@
       width: 55%;
       height: 400px;
       z-index: 10;
-      -webkit-animation: moving 2s;
-      animation: moving 2s;
+      -webkit-transition: background .5s ease-out;
+      -moz-transition: background .5s ease-out;
+      -o-transition: background .5s ease-out;
+      transition: background .5s ease-out;
+      animation-name: img-ani;
+      animation-duration: 4s;
+      animation-timing-function: ease-in;
       /* Fin de la class aboutdiv */ }
       .titre .entete .aboutdiv {
         /* Début de class aboutdiv */
@@ -685,6 +690,11 @@
         animation: slide-right 5s;
         position: relative;
         /* Fin de la class about */ }
+  @keyframes img-ani {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
         .titre .entete .aboutdiv .about {
           /* Début de class about */
           display: inline-block;
@@ -1194,8 +1204,13 @@
       padding-left: 2%;
       width: 55%;
       height: 400px;
-      -webkit-animation: moving 2s;
-      animation: moving 2s;
+      -webkit-transition: background .5s ease-out;
+      -moz-transition: background .5s ease-out;
+      -o-transition: background .5s ease-out;
+      transition: background .5s ease-out;
+      animation-name: img-ani;
+      animation-duration: 4s;
+      animation-timing-function: ease-in;
       /* Fin de la class aboutdiv */ }
       .titre .entete .aboutdiv {
         /* Début de class aboutdiv */
@@ -1214,6 +1229,11 @@
         position: relative;
         display: table;
         /* Fin de la class about */ }
+  @keyframes img-ani {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
         .titre .entete .aboutdiv .about {
           /* Début de class about */
           vertical-align: middle;
