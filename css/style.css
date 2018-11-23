@@ -196,7 +196,8 @@
         width: 30%; }
     #portfolio .sectionabout {
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      margin-bottom: 3%; }
       #portfolio .sectionabout .aboutme {
         margin-left: 2%;
         width: 30%; }
@@ -754,43 +755,45 @@
           color: #a4591c; }
       #portfolio .divtitre .titreport2 {
         width: 30%; }
-    #portfolio .sectionabout .aboutme {
-      margin-left: 5%;
-      width: 80%; }
-      #portfolio .sectionabout .aboutme .lettre {
-        font-size: 38px;
-        margin-top: 0.5%;
-        width: 50px;
-        height: 50px;
-        background: #A4591C;
-        display: inline-block;
-        float: left;
-        border-radius: 5px;
-        margin-right: 2%;
-        display: flex;
-        justify-content: center;
-        padding-top: 0.8%;
-        color: #FFF; }
-    #portfolio .sectionabout .aboutme2 {
-      margin-left: 5%;
-      width: 80%; }
-    #portfolio .sectionabout .titlesec {
-      font-size: 18px;
-      line-height: 30px;
-      font-weight: 700;
-      letter-spacing: 7px;
-      color: #a4591c;
-      margin-bottom: 5%; }
-    #portfolio .sectionabout .descsec {
-      line-height: 27px;
-      margin-top: 3%;
-      font-size: 14px; }
-    #portfolio .sectionabout .titledesc {
-      margin-top: 3%;
-      font-weight: bold; }
-    #portfolio .sectionabout .titledesc1 {
-      font-weight: bold;
-      margin-top: 5%; }
+    #portfolio .sectionabout {
+      margin-bottom: 3%; }
+      #portfolio .sectionabout .aboutme {
+        margin-left: 5%;
+        width: 80%; }
+        #portfolio .sectionabout .aboutme .lettre {
+          font-size: 38px;
+          margin-top: 0.5%;
+          width: 50px;
+          height: 50px;
+          background: #A4591C;
+          display: inline-block;
+          float: left;
+          border-radius: 5px;
+          margin-right: 2%;
+          display: flex;
+          justify-content: center;
+          padding-top: 0.8%;
+          color: #FFF; }
+      #portfolio .sectionabout .aboutme2 {
+        margin-left: 5%;
+        width: 80%; }
+      #portfolio .sectionabout .titlesec {
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 700;
+        letter-spacing: 7px;
+        color: #a4591c;
+        margin-bottom: 5%; }
+      #portfolio .sectionabout .descsec {
+        line-height: 27px;
+        margin-top: 3%;
+        font-size: 14px; }
+      #portfolio .sectionabout .titledesc {
+        margin-top: 3%;
+        font-weight: bold; }
+      #portfolio .sectionabout .titledesc1 {
+        font-weight: bold;
+        margin-top: 5%; }
     #portfolio h1 {
       color: #FFF;
       text-align: center;
@@ -1290,43 +1293,45 @@
           color: #a4591c; }
       #portfolio .divtitre .titreport2 {
         width: 30%; }
-    #portfolio .sectionabout .aboutme {
-      margin-left: 5%;
-      width: 80%; }
-      #portfolio .sectionabout .aboutme .lettre {
-        font-size: 38px;
-        margin-top: 0.5%;
-        width: 50px;
-        height: 50px;
-        background: #A4591C;
-        display: inline-block;
-        float: left;
-        border-radius: 5px;
-        margin-right: 2%;
-        display: flex;
-        justify-content: center;
-        padding-top: 0.8%;
-        color: #FFF; }
-    #portfolio .sectionabout .aboutme2 {
-      margin-left: 5%;
-      width: 80%; }
-    #portfolio .sectionabout .titlesec {
-      font-size: 22px;
-      line-height: 30px;
-      font-weight: 700;
-      letter-spacing: 7px;
-      color: #a4591c;
-      margin-bottom: 5%; }
-    #portfolio .sectionabout .descsec {
-      line-height: 27px;
-      margin-top: 3%;
-      font-size: 16px; }
-    #portfolio .sectionabout .titledesc1 {
-      font-weight: bold;
-      margin-top: 5%; }
-    #portfolio .sectionabout .titledesc {
-      margin-top: 3%;
-      font-weight: bold; }
+    #portfolio .sectionabout {
+      margin-bottom: 3%; }
+      #portfolio .sectionabout .aboutme {
+        margin-left: 5%;
+        width: 80%; }
+        #portfolio .sectionabout .aboutme .lettre {
+          font-size: 38px;
+          margin-top: 0.5%;
+          width: 50px;
+          height: 50px;
+          background: #A4591C;
+          display: inline-block;
+          float: left;
+          border-radius: 5px;
+          margin-right: 2%;
+          display: flex;
+          justify-content: center;
+          padding-top: 0.8%;
+          color: #FFF; }
+      #portfolio .sectionabout .aboutme2 {
+        margin-left: 5%;
+        width: 80%; }
+      #portfolio .sectionabout .titlesec {
+        font-size: 22px;
+        line-height: 30px;
+        font-weight: 700;
+        letter-spacing: 7px;
+        color: #a4591c;
+        margin-bottom: 5%; }
+      #portfolio .sectionabout .descsec {
+        line-height: 27px;
+        margin-top: 3%;
+        font-size: 16px; }
+      #portfolio .sectionabout .titledesc1 {
+        font-weight: bold;
+        margin-top: 5%; }
+      #portfolio .sectionabout .titledesc {
+        margin-top: 3%;
+        font-weight: bold; }
     #portfolio h1 {
       color: #FFF;
       text-align: center;
