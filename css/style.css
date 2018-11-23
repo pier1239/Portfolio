@@ -130,6 +130,7 @@
         font-size: 34px;
         color: #FFF;
         border-color: white;
+        animation: slide-right 5s;
         position: relative;
         display: table;
         /* Fin de la class about */ }
@@ -685,6 +686,7 @@
         cursor: pointer;
         overflow: hidden;
         margin-top: 5%;
+        animation: slide-right 5s;
         color: #FFF;
         border-color: white;
         animation: slide-right 5s;
