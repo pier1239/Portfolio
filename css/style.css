@@ -38,7 +38,7 @@
       font-weight: 800; }
   .navigation-btn {
     display: none;
-    position: fixed;
+    position: absolute;
     top: 30px;
     right: 30px;
     z-index: 20;
@@ -78,7 +78,7 @@
         border-radius: 0px 20px 20px 0px;
         float: left; }
         .titre .upmenu .leftoption a {
-          font-family: arial black;
+          font-family: arial;
           font-size: 20px;
           color: white;
           text-decoration: none;
@@ -89,7 +89,7 @@
         border-radius: 20px 0px 0px 20px;
         float: right; }
         .titre .upmenu .rightoption a {
-          font-family: arial black;
+          font-family: arial;
           font-size: 20px;
           color: white;
           text-decoration: none;
@@ -108,8 +108,13 @@
       padding-left: 2%;
       width: 55%;
       height: 400px;
-      -webkit-animation: moving 2s;
-      animation: moving 2s;
+      -webkit-transition: background .5s ease-out;
+      -moz-transition: background .5s ease-out;
+      -o-transition: background .5s ease-out;
+      transition: background .5s ease-out;
+      animation-name: img-ani;
+      animation-duration: 4s;
+      animation-timing-function: ease-in;
       /* Fin de la class aboutdiv */ }
       .titre .entete .aboutdiv {
         /* Début de class aboutdiv */
@@ -124,10 +129,14 @@
         font-size: 34px;
         color: #FFF;
         border-color: white;
-        animation: slide-right 5s;
         position: relative;
         display: table;
         /* Fin de la class about */ }
+  @keyframes img-ani {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
         .titre .entete .aboutdiv .about {
           /* Début de class about */
           vertical-align: middle;
@@ -484,42 +493,38 @@
     #contact .sectioncontact {
       width: 100%; }
       #contact .sectioncontact .contactone {
-        width: 100%;
-        display: flex;
-        justify-content: center; }
+        margin-left: 20%;
+        width: 60%; }
         #contact .sectioncontact .contactone .editnormal {
-          width: 20%;
+          width: 40%;
           height: 40px;
-          margin-left: 0.5%;
-          margin-right: 0.5%;
-          padding-left: 1%; }
+          margin-right: 1%;
+          padding-left: 0.5%; }
       #contact .sectioncontact .contacttwo {
-        width: 100%;
-        display: flex;
-        justify-content: center;
+        margin-left: 20%;
+        width: 60%;
         margin-top: 1%; }
         #contact .sectioncontact .contacttwo .editlong {
           padding-left: 1%;
-          width: 41%;
+          width: 81.2%;
           height: 40px; }
       #contact .sectioncontact .contactthree {
         margin-top: 1%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
+        width: 60%;
+        margin-left: 20%;
         margin-bottom: 2%; }
         #contact .sectioncontact .contactthree .editlarge {
-          width: 41%;
+          width: 81.2%;
           height: 70px;
           padding-left: 1%; }
       #contact .sectioncontact .buttondiv {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 3%; }
+        width: 60%;
+        margin-bottom: 3%;
+        margin-left: 20%; }
         #contact .sectioncontact .buttondiv .butsend {
           background: #a4591c;
           color: #FFFFFF;
-          width: 12%;
+          width: 30%;
           height: 40px; }
   /* Fin de section contact */ }
 
@@ -586,13 +591,13 @@
       letter-spacing: .070em;
       font-weight: 800; }
   .navigation-btn {
-    position: fixed;
+    position: absolute;
     top: 30px;
     right: 30px;
     z-index: 20;
     cursor: pointer; }
     .navigation-btn .barre {
-      width: 60px;
+      width: 55px;
       height: 8px;
       background: #FFF;
       margin-top: 4px; }
@@ -1042,44 +1047,39 @@
       margin-left: 5%;
       margin-bottom: 5%; }
     #contact .sectioncontact {
-      width: 100%; }
+      width: 100%;
+      margin-left: 5%; }
       #contact .sectioncontact .contactone {
-        width: 100%;
-        display: flex;
-        justify-content: center; }
+        width: 100%; }
         #contact .sectioncontact .contactone .editnormal {
-          width: 20%;
+          width: 100%;
           height: 40px;
-          margin-left: 0.5%;
-          margin-right: 0.5%;
-          padding-left: 1%; }
+          margin-bottom: 12px;
+          margin-right: 1%;
+          padding-left: 0.5%; }
       #contact .sectioncontact .contacttwo {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: 1%; }
+        width: 100%; }
         #contact .sectioncontact .contacttwo .editlong {
           padding-left: 1%;
-          width: 41%;
-          height: 40px; }
+          width: 100%;
+          height: 40px;
+          margin-bottom: 6px; }
       #contact .sectioncontact .contactthree {
-        margin-top: 1%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 2%; }
+        margin-top: 6px;
+        width: 100%; }
         #contact .sectioncontact .contactthree .editlarge {
-          padding-left: 1%;
-          width: 41%;
-          height: 70px; }
+          width: 100%;
+          height: 70px;
+          margin-bottom: 6px;
+          padding-left: 1%; }
       #contact .sectioncontact .buttondiv {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 3%; }
+        width: 80%;
+        margin-top: 6px;
+        margin-bottom: 2%; }
         #contact .sectioncontact .buttondiv .butsend {
           background: #a4591c;
           color: #FFFFFF;
-          width: 32%;
+          width: 55%;
           height: 40px; }
   /* Fin de section contact */ }
 
@@ -1119,7 +1119,7 @@
       letter-spacing: .070em;
       font-weight: 800; }
   .navigation-btn {
-    position: fixed;
+    position: absolute;
     top: 30px;
     right: 30px;
     z-index: 20;
@@ -1558,7 +1558,7 @@
   /* Fin de la section skills */
   #contact {
     /* Début de la section contact */
-    width: 100%;
+    width: 90%;
     background: #fff;
     margin-top: 3%;
     font-family: roboto; }
@@ -1571,43 +1571,38 @@
       margin-left: 5%;
       margin-bottom: 5%; }
     #contact .sectioncontact {
-      width: 100%; }
+      width: 100%;
+      margin-left: 5%; }
       #contact .sectioncontact .contactone {
-        width: 100%;
-        display: flex;
-        justify-content: center; }
+        width: 100%; }
         #contact .sectioncontact .contactone .editnormal {
-          width: 20%;
+          width: 100%;
           height: 40px;
-          margin-left: 0.5%;
-          margin-right: 0.5%;
-          padding-left: 1%; }
+          margin-bottom: 12px;
+          margin-right: 1%;
+          padding-left: 0.5%; }
       #contact .sectioncontact .contacttwo {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: 1%; }
+        width: 100%; }
         #contact .sectioncontact .contacttwo .editlong {
           padding-left: 1%;
-          width: 41%;
-          height: 40px; }
+          width: 100%;
+          height: 40px;
+          margin-bottom: 6px; }
       #contact .sectioncontact .contactthree {
-        margin-top: 1%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 2%; }
+        margin-top: 6px;
+        width: 100%; }
         #contact .sectioncontact .contactthree .editlarge {
-          width: 41%;
+          width: 100%;
           height: 70px;
+          margin-bottom: 6px;
           padding-left: 1%; }
       #contact .sectioncontact .buttondiv {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 3%; }
+        width: 80%;
+        margin-top: 6px;
+        margin-bottom: 2%; }
         #contact .sectioncontact .buttondiv .butsend {
           background: #a4591c;
           color: #FFFFFF;
-          width: 32%;
+          width: 55%;
           height: 40px; }
   /* Fin de section contact */ }

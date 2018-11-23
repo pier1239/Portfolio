@@ -9,9 +9,10 @@ $('.navigation-btn').click(function(){
 
 });
 
+$( '.navigation a' ).on("click", function(){
+ $('.navigation').toggleClass('isopen');
 
-
-
+});
 
 });
 
