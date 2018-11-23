@@ -677,7 +677,6 @@
         cursor: pointer;
         overflow: hidden;
         margin-top: 5%;
-        font-size: 18px;
         color: #FFF;
         border-color: white;
         animation: slide-right 5s;
@@ -690,7 +689,7 @@
           text-align: center;
           margin-top: 11%;
           color: #FFF;
-          font-size: 18px;
+          font-size: 24px;
           text-decoration: none;
           width: 100%; }
   @keyframes slide-right {
