@@ -197,7 +197,7 @@
     #portfolio .sectionabout {
       display: flex;
       justify-content: center;
-      margin-bottom: 3%; }
+      margin-bottom: 35px; }
       #portfolio .sectionabout .aboutme {
         margin-left: 2%;
         width: 30%; }
@@ -756,7 +756,7 @@
       #portfolio .divtitre .titreport2 {
         width: 30%; }
     #portfolio .sectionabout {
-      margin-bottom: 15%; }
+      margin-bottom: 35px; }
       #portfolio .sectionabout .aboutme {
         margin-left: 5%;
         width: 80%; }
@@ -1294,7 +1294,7 @@
       #portfolio .divtitre .titreport2 {
         width: 30%; }
     #portfolio .sectionabout {
-      margin-bottom: 3%; }
+      margin-bottom: 35px; }
       #portfolio .sectionabout .aboutme {
         margin-left: 5%;
         width: 80%; }
