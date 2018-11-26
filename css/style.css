@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://fonts.googleapis.com/css?family=Calligraffitti");
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 /* Desktop Styles */
 @media only screen and (min-width: 991px) {
   * {
@@ -66,7 +66,7 @@
     animation-name: img-ani;
     animation-duration: 1s;
     animation-timing-function: ease-in;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     /* Fin de la class entete */ }
     .titre .upmenu {
       position: relative;
@@ -623,7 +623,7 @@
     animation-name: img-ani;
     animation-duration: 1s;
     animation-timing-function: ease-in;
-    font-family: 'Calligraffitti', cursive;
+    font-family: 'Montserrat', sans-serif;
     /* Fin de la class entete */ }
     .titre .upmenu {
       display: none;
@@ -1164,7 +1164,7 @@
     animation-name: img-ani;
     animation-duration: 1s;
     animation-timing-function: ease-in;
-    font-family: 'Calligraffitti', cursive;
+    font-family: 'Montserrat', sans-serif;
     /* Fin de la class entete */ }
     .titre .upmenu {
       display: none;
