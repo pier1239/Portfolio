@@ -722,11 +722,6 @@
           font-size: 24px;
           text-decoration: none;
           width: 100%; }
-  @keyframes slide-right {
-    from {
-      margin-left: -15%; }
-    to {
-      margin-left: 10%; } }
         .titre .entete .aboutdiv .about:hover {
           text-decoration: none;
           cursor: pointer; }
