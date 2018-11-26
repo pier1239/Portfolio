@@ -697,7 +697,6 @@
         /* Début de class aboutdiv */
         border-style: solid;
         border-width: 3px;
-        margin: auto;
         width: 80%;
         height: 20%;
         cursor: pointer;
@@ -706,6 +705,7 @@
         color: #FFF;
         border-color: white;
         position: relative;
+        display: table;
         /* Fin de la class about */ }
   @keyframes img-ani {
     from {
@@ -714,9 +714,8 @@
       opacity: 1; } }
         .titre .entete .aboutdiv .about {
           /* Début de class about */
-          display: inline-block;
+          display: table-cell;
           vertical-align: middle;
-          text-align: center;
           color: #FFF;
           font-size: 24px;
           text-decoration: none;
