@@ -479,6 +479,24 @@
           color: #ffffff;
           color: rgba(0, 0, 0, 0.4); }
   /* Fin de la section skills */
+  #cvsection {
+    width: 100%;
+    background: #fff;
+    margin-top: 3%;
+    font-family: roboto; }
+    #cvsection .cvdiv {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+      #cvsection .cvdiv .catCV {
+        width: 30%; }
+        #cvsection .cvdiv .catCV .first {
+          font-size: 24px;
+          line-height: 28px;
+          font-weight: 700;
+          letter-spacing: 6px;
+          margin-bottom: 5%;
+          color: #000; }
   #contact {
     /* Début de la section contact */
     width: 100%;
@@ -1050,6 +1068,22 @@
           color: #ffffff;
           color: rgba(0, 0, 0, 0.4); }
   /* Fin de la section skills */
+  #cvsection {
+    width: 90%;
+    background: #fff;
+    margin-top: 3%;
+    font-family: roboto; }
+    #cvsection .cvdiv {
+      width: 100%;
+      margin-left: 5%; }
+      #cvsection .cvdiv .catCV .first {
+        margin-top: 10%;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: bold;
+        letter-spacing: 6px;
+        margin-bottom: 5%;
+        color: #000; }
   #contact {
     /* Début de la section contact */
     width: 90%;
@@ -1586,6 +1620,22 @@
           color: #ffffff;
           color: rgba(0, 0, 0, 0.4); }
   /* Fin de la section skills */
+  #cvsection {
+    width: 90%;
+    background: #fff;
+    margin-top: 3%;
+    font-family: roboto; }
+    #cvsection .cvdiv {
+      width: 100%;
+      margin-left: 5%; }
+      #cvsection .cvdiv .catCV .first {
+        margin-top: 5%;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 700;
+        letter-spacing: 6px;
+        margin-bottom: 5%;
+        color: #000; }
   #contact {
     /* Début de la section contact */
     width: 90%;
