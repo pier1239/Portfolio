@@ -165,8 +165,7 @@
     to {
       top: 0px; } }
     .titre span {
-      align: center;
-      float: center;
+      text-align: center;
       width: 30%;
       font-size: 54px;
       letter-spacing: 12px; }
@@ -704,7 +703,6 @@
         cursor: pointer;
         overflow: hidden;
         margin-top: 5%;
-        animation: slide-right 5s;
         color: #FFF;
         border-color: white;
         position: relative;
@@ -743,10 +741,9 @@
     to {
       top: 0px; } }
     .titre span {
-      align: center;
-      float: center;
+      text-align: left;
       width: 30%;
-      font-size: 34px;
+      font-size: 24px;
       letter-spacing: 8px; }
   /* Fin de la class titre */
   #portfolio {
@@ -1259,7 +1256,7 @@
         cursor: pointer;
         overflow: hidden;
         margin-top: 5%;
-        font-size: 34px;
+        font-size: 30px;
         color: #FFF;
         border-color: white;
         position: relative;
@@ -1297,10 +1294,9 @@
     to {
       top: 0px; } }
     .titre span {
-      align: center;
-      float: center;
+      text-align: center;
       width: 30%;
-      font-size: 34px;
+      font-size: 28px;
       letter-spacing: 8px; }
   /* Fin de la class titre */
   #portfolio {
