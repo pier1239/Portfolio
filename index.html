@@ -231,8 +231,11 @@
 
 
 
+
+
 <section id="contact">
 	<h2 class="titlecon">CONTACTEZ MOI</h2>
+	<form action="/send" method="POST">
 <div class="sectioncontact">
 	<div class="contactone">
     <input type="text" name="name" class="editnormal" placeholder="Ton nom">   
@@ -245,11 +248,49 @@
 	<input type="text" name="message" class="editlarge" placeholder="Message">
 	</div>
 	<div class="buttondiv">
-		<button type="button" class="butsend" onclick="sendmail();">Envoyer moi un message</button>
+		<input type="submit" class="butsend" value="Send a message"></input>
+	
+		<pre id="getResponse"></pre>
 	</div>
 </div>
+</form>
 </div>
 </section>
+
+<script type="text/javascript">
+	function  connectserver ()
+	{
+		$('#submit').click(function() {
+    $.ajax({
+        url: '/index.html',
+        type: 'POST',
+        data: {
+            email: 'email@example.com',
+            message: 'hello world!'
+        },
+        success: function(msg) {
+            alert('Email Sent');
+        }               
+    });
+});
+	}
+
+	function httprequest () {
+
+		// using SendGrid's v3 Node.js Library
+// https://github.com/sendgrid/sendgrid-nodejs
+const sgMail = require('@sendgrid/mail');
+sgMail.setApiKey("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");
+const msg = {
+  to: 'piertest1239@gmail.com',
+  from: 'pier1239@hotmail.com',
+  subject: 'call a function',
+  text: 'ces facil a prendre',
+  html: 'salut bon beau minou',
+};
+sgMail.send(msg);
+	}
+</script>
 
 <div class="piedpage">
 	<span class="spanpied">© 2018. Tous droits réservés. Pierre-Luc Doré</span>
@@ -267,30 +308,10 @@
 <script src="./js/animatescroll.js"></script>
  <!-- burger menu-->
 <script src="./js/menu.js"></script>
- <!-- sendmail-->
 
 
-<script type="text/javascript">
-	function sendmail ()  {
 
 
-// using SendGrid's v3 Node.js Library
-// https://github.com/sendgrid/sendgrid-nodejs
-const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-const msg = {
-  to: 'pier1239@hotmail.com',
-  from: 'pier1239@hotmaill.com',
-  subject: 'Sending with SendGrid is Fun',
-  text: 'and easy to do anywhere, even with Node.js',
-  html: '<strong>and easy to do anywhere, even with Node.js</strong>',
-};
-sgMail.send(msg);
-
-}
-
-
-</script>
 
 
 
