@@ -248,7 +248,7 @@
 	<input type="text" name="message" class="editlarge" placeholder="Message">
 	</div>
 	<div class="buttondiv">
-		<input type="submit" class="butsend" value="Send a message"></input>
+		<input type="submit" class="butsend" value="Envoyer votre message"></input>
 	
 		<pre id="getResponse"></pre>
 	</div>
@@ -257,28 +257,7 @@
 </div>
 </section>
 
-<script type="text/javascript">
-	function  connectserver ()
-	{
-		$('#submit').click(function() {
-    $.ajax({
-        url: '/index.html',
-        type: 'POST',
-        data: {
-            email: 'email@example.com',
-            message: 'hello world!'
-        },
-        success: function(msg) {
-            alert('Email Sent');
-        }               
-    });
-});
-	}
 
-	function httprequest () {
-
-
-</script>
 
 <div class="piedpage">
 	<span class="spanpied">© 2018. Tous droits réservés. Pierre-Luc Doré</span>
