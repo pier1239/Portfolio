@@ -12,7 +12,7 @@
     "express": "^4.16.4",
     "gh-pages": "^2.0.1",
     "hamburgers": "^0.9.3",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "react-circular-progressbar": "^1.0.0",
     "requirejs": "^2.3.6",
     "sendgrid": "^5.2.3"
