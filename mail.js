@@ -37,10 +37,11 @@ const sgMail = require('@sendgrid/mail');
 sgMail.setApiKey(process.env.SENDMAIL_KEY);
 const msg = {
 to: 'piertest1239@gmail.com',
-from: req.body.email,
+from: 'piertest1239@gmail.com',
+//from: req.body.email,
 subject:  req.body.subject,
-text: 'ces facil a prendre',
-html:   req.body.name + ' ' + req.body.message,
+text: 'email portfolio',
+html:  req.body.email + ' ' + req.body.name + ' ' + req.body.message,
 };
 sgMail.send(msg);
 
