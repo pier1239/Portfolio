@@ -41,8 +41,8 @@ from: 'piertest1239@gmail.com',
 //from: req.body.email,
 subject:  'sujet de email',
 text: 'email portfolio',
-html:  'test de email',
-//html:  req.body.email + ' ' + req.body.name + ' ' + req.body.message,
+//html:  'test de email',
+html:  req.body.email + ' ' + req.body.name + ' ' + req.body.message,
 };
 sgMail.send(msg);
 
