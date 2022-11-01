@@ -39,10 +39,10 @@ const msg = {
 to: 'piertest1239@gmail.com',
 from: 'piertest1239@gmail.com',
 //from: req.body.email,
-subject:  'sujet de email',
+subject:  req.body.subject,
 text: 'email portfolio',
-//html:  'test de email',
 html:  req.body.email + ' ' + req.body.name + ' ' + req.body.message,
+//html:  req.body.email + ' ' + req.body.name + ' ' + req.body.message,
 };
 sgMail.send(msg);
 
