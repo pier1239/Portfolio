@@ -339,6 +339,39 @@
     height: 75px;
   }
   /* Fin de la section portfolio */
+  /* Debut de la section histoique de travaux */
+  .divtitrehistorique .achievetitlehis p {
+    margin-left: 20%;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    margin-top: 1%;
+    color: #000000;
+  }
+  .div_historique {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .div_historique .div_main {
+    width: 60%;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .div_historique .div_main .site_div {
+    margin-top: 3%;
+    width: 34%;
+    height: 185px;
+    margin-right: 3%;
+    background-color: #FFFFFF;
+  }
+  .div_historique .div_main .site_div .imgportfolio {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+  }
   #skills { /* Debut de la class section skills */
     width: 100%;
     background: #fff;
