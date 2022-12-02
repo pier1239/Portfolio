@@ -7,11 +7,6 @@
 	box-sizing: border-box;
 	
   }
-
-
-
-
-
  .navigation.isopen
    {
 	 transform: translateX(0%);
@@ -78,9 +73,9 @@
 {  /* Début de la class titre */
 	background-image: linear-gradient(#1B1C1E, rgba(0,0,0,.4)), url('../img/me.jpg');
 	background-repeat: no-repeat;
-	background-position: center center;
+
 	background-size: cover;
-	height: 100vh;
+	height: 50vh;
 	width: 100%;
     text-align: center;
     display: flex;
@@ -159,10 +154,8 @@
 
    .aboutdiv {  /* Début de class aboutdiv */
     border-style: solid;
-    border-width: 3px;
-   
-    width: 80%;
-    height: 20%;
+    border-width: 1px;
+    padding: 15px;
     cursor:pointer;
     overflow: hidden;  
     margin-top:5%;
@@ -182,7 +175,7 @@
     display: table-cell;
     vertical-align: middle;
     color: #FFF;
-     font-size: 24px;
+     font-size: 14px;
     text-decoration: none;
     width: 100%;
 
@@ -213,7 +206,7 @@
 	        span {
 	             text-align: left;
 	             width: 30%;
-	             font-size: 24px;
+	             font-size: 14px;
 	             letter-spacing: 8px;
 	             }
 }  /* Fin de la class titre */
