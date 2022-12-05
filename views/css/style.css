@@ -757,8 +757,9 @@
   .titre { /* Début de la class titre */
     background-image: linear-gradient(#1B1C1E, rgba(0, 0, 0, 0.4)), url("../img/me.jpg");
     background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
-    height: 35vh;
+    height: 45vh;
     width: 100%;
     text-align: center;
     display: flex;
