@@ -758,6 +758,7 @@
     background-image: linear-gradient(#1B1C1E, rgba(0, 0, 0, 0.4)), url("../img/me.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    justify-content: center;
     height: 45vh;
     width: 100%;
     text-align: center;
@@ -1424,6 +1425,7 @@
   .titre { /* Début de la class titre */
     background-image: linear-gradient(#1B1C1E, rgba(0, 0, 0, 0.4)), url("../img/me.jpg");
     background-repeat: no-repeat;
+    justify-content: center;
     background-size: cover;
     height: 45vh;
     width: 100%;
@@ -1487,7 +1489,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 22%;
     padding-left: 2%;
     height: 400px;
     z-index: 10;
