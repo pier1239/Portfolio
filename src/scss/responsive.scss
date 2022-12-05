@@ -1,5 +1,5 @@
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
 
 * {
 	margin: 0;
@@ -136,10 +136,12 @@
 	.entete {  /* Début de la class entete */
 	position: absolute;
 	color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
 	margin-left: 22%;
-    margin-top: 50%;
 	padding-left: 2%;
-	width: 55%;
 	height: 400px;
     z-index: 10;
 
@@ -156,9 +158,11 @@
     border-style: solid;
     border-width: 1px;
     padding: 15px;
+
     cursor:pointer;
     overflow: hidden;  
     margin-top:5%;
+    margin-left:2%;
     color: #FFF;
     border-color: white;
     position: relative;
@@ -205,7 +209,7 @@
 
 	        span {
 	             text-align: left;
-	             width: 30%;
+	             width: 100%;
 	             font-size: 14px;
 	             letter-spacing: 8px;
 	             }
@@ -860,7 +864,7 @@
 }
 
 /* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 990px) {
+@media only screen and (min-width: 601px) and (max-width: 990px) {
 
 * {
 	margin: 0;
@@ -941,7 +945,7 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	height: 100vh;
+	height: 80vh;
 	width: 100%;
     text-align: center;
     display: flex;
@@ -1629,7 +1633,7 @@ display: none;
   }
    }  /* Fin de la section skills */
 
-        #cvsection {
+ #cvsection {
     width: 90%;
 	background: #fff;
 	margin-top: 3%;
