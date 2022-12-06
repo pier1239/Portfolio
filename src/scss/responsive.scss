@@ -447,13 +447,12 @@
 
   .div_main {
     width: 60%;
-   
     flex-wrap: wrap;
     display: flex;
   .site_div {
      margin-top: 3%;
      width: 40%;
-     height: 60px;
+     height: 160px;
      margin-right: 3%;
      background-color: #FFFFFF;
      .imgportfolio {
@@ -1304,13 +1303,13 @@
   width: 100%;
   margin-left: 5%;
   .div_main {
-    width: 60%;
+    width: 100%;
     flex-wrap: wrap;
     display: flex;
   .site_div {
      margin-top: 3%;
      width: 40%;
-     height: 100px;
+     height: 160px;
      margin-right: 3%;
      background-color: #FFFFFF;
      .imgportfolio {
