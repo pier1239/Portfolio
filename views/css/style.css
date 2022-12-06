@@ -1033,8 +1033,8 @@
     font-size: 16px;
   }
   #portfolio .achievedivdesc .achievedesc .imgachieve {
-    width: 25px;
-    height: 25px;
+    width: 55px;
+    height: 55px;
   }
   /* Fin de la section portfolio */
   /* Debut de la section histoique de travaux */
@@ -1107,7 +1107,7 @@
   }
   #skills .sectionskill .first {
     margin-top: 2%;
-    font-size: 18px;
+    font-size: 28px;
     line-height: 28px;
     font-weight: bold;
     letter-spacing: 6px;
@@ -1220,6 +1220,14 @@
     margin-left: 5%;
     margin-top: 5%;
     width: 100%;
+  }
+  #skills .sectionskill .catskilltwo .first {
+    margin-top: 2%;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    margin-bottom: 5%;
   }
   #skills .sectionskill .catskilltwo .skillbar {
     position: relative;
@@ -1697,8 +1705,8 @@
     font-size: 30px;
   }
   #portfolio .achievedivdesc .achievedesc .imgachieve {
-    width: 45px;
-    height: 45px;
+    width: 75px;
+    height: 55px;
   }
   /* Fin de la section portfolio */
   /* Debut de la section histoique de travaux */
@@ -1763,7 +1771,7 @@
   }
   #skills .sectionskill .first {
     margin-top: 2%;
-    font-size: 18px;
+    font-size: 28px;
     line-height: 28px;
     font-weight: 700;
     letter-spacing: 6px;
@@ -1878,7 +1886,7 @@
   }
   #skills .sectionskill .catskilltwo .first {
     margin-top: 5%;
-    font-size: 18px;
+    font-size: 28px;
     line-height: 28px;
     font-weight: 700;
     letter-spacing: 6px;
