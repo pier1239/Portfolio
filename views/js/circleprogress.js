@@ -1,5 +1,6 @@
-        
+   
 $( document ).ready(function() {
+var timeone = 0;  
 $.fn.isVisible = function() {
     // Am I visible?
     // Height and Width are not explicitly necessary in visibility detection, the bottom, right, top and left are the
@@ -17,10 +18,13 @@ $.fn.isVisible = function() {
 
 function doCheck() {
     var elementToDetect = $('#skills');
-    if (elementToDetect.isVisible()) {
+    if (elementToDetect.isVisible() && timeone == 0) {
+        timeone = 1;
         jQuery('.skillbar').each(function(){
+
         jQuery(this).find('.skillbar-bar').animate({
             width:jQuery(this).attr('data-percent')
+
         },6000);
     });
     } else {
