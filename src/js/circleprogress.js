@@ -1,11 +1,5 @@
         
-       
-    
-        $( document ).ready(function() {
-
-
-
-
+$( document ).ready(function() {
 $.fn.isVisible = function() {
     // Am I visible?
     // Height and Width are not explicitly necessary in visibility detection, the bottom, right, top and left are the
@@ -22,27 +16,16 @@ $.fn.isVisible = function() {
 };
 
 function doCheck() {
-    
     var elementToDetect = $('#skills');
-    
     if (elementToDetect.isVisible()) {
-      
-jQuery('.skillbar').each(function(){
+        jQuery('.skillbar').each(function(){
         jQuery(this).find('.skillbar-bar').animate({
             width:jQuery(this).attr('data-percent')
         },6000);
     });
-
-
-
-
-        
-
-
     } else {
       
-    }
-    
+    }   
 }
 
 $(document)
@@ -54,7 +37,6 @@ $(window)
     .scroll(function(e){
         doCheck();    
     });
-
 
 });
 
