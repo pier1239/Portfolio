@@ -1575,6 +1575,7 @@
     /* Fin de la class achievedivdesc */
   }
   #portfolio .divtitre {
+    margin-top: 10%;
     margin-bottom: 5%;
     margin-left: 5%;
     display: flex;
@@ -1658,7 +1659,7 @@
     width: 80%;
     background-color: #F3F3F3;
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
     letter-spacing: 7px;
     vertical-align: middle;
     display: table-cell;
@@ -1726,7 +1727,6 @@
   .div_historique .div_main .site_div {
     margin-top: 3%;
     width: 40%;
-    height: 160px;
     margin-right: 3%;
     background-color: #FFFFFF;
   }
