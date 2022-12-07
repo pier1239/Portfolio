@@ -700,7 +700,7 @@
 }
 
 /* Mobile Styles */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   * {
     margin: 0;
     padding: 0;
@@ -1375,7 +1375,7 @@
   /* Fin de section contact */
 }
 /* Tablet Styles */
-@media only screen and (min-width: 601px) and (max-width: 990px) {
+@media only screen and (min-width: 401px) and (max-width: 990px) {
   * {
     margin: 0;
     padding: 0;
