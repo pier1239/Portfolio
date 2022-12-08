@@ -226,7 +226,7 @@
 	             text-align: center;
 	            
 	             width: 30%;
-	             font-size: 54px;
+	             font-size: 34px;
 	             letter-spacing: 12px;
 	             }
 }  /* Fin de la class titre */
@@ -765,13 +765,9 @@
     .cvdiv
 	{
 	width: 100%;
-	
-    display: flex;
-    justify-content: center;
+	margin-left: 20%;
 
     .catCV {
-     width: 30%;
-
     .first
 	{
 	font-size: 24px;
