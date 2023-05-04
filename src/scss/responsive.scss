@@ -9,15 +9,15 @@
   }
  .navigation.isopen
    {
-	 transform: translateX(0%);
+	transform: translateX(0%);
     -webkit-transform: translateX(0%);
+    z-index: 11;
    }
 
 
 .navigation {
 	position: fixed;
 	right: 0;
-
     background: #333;
     width: 35%;
     height: 100%;
@@ -872,6 +872,7 @@
    {
 	 transform: translateX(0%);
     -webkit-transform: translateX(0%);
+     z-index: 11;
    }
 
 

@@ -195,7 +195,7 @@
   .titre span {
     text-align: center;
     width: 30%;
-    font-size: 54px;
+    font-size: 34px;
     letter-spacing: 12px;
   }
   /* Fin de la class titre */
@@ -593,11 +593,7 @@
   }
   #cvsection .cvdiv {
     width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  #cvsection .cvdiv .catCV {
-    width: 30%;
+    margin-left: 20%;
   }
   #cvsection .cvdiv .catCV .first {
     font-size: 24px;
@@ -709,6 +705,7 @@
   .navigation.isopen {
     transform: translateX(0%);
     -webkit-transform: translateX(0%);
+    z-index: 11;
   }
   .navigation {
     position: fixed;
@@ -1383,6 +1380,7 @@
   .navigation.isopen {
     transform: translateX(0%);
     -webkit-transform: translateX(0%);
+    z-index: 11;
   }
   .navigation {
     position: fixed;
